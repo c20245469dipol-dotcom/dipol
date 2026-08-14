@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(2, 138, 2);
+}
+
+h1 {
+    color: rgb(247, 40, 3);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(76, 76, 177);
+}
+    button {
+        background-color: rgb(230, 16, 9);
+        color: white;
+    }
+    header {
+        
+        color: rgb(172, 7, 7);
+    }
+    main {
+        background-color: rgb(165, 157, 157);
+        margin: 20px;
+        padding: 20px;    
+    }
+#Contact {
+    background-color: rgb(165, 157, 157);
+    margin: 20px;
+    padding: 20px;
+}
