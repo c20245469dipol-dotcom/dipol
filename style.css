@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(2, 138, 2);
+    background-color: rgb(10, 141, 10);
 }
 
 h1 {
@@ -41,7 +41,28 @@ input, textarea {
     main {
         background-color: rgb(165, 157, 157);
         margin: 0px;
-        padding: 20px;    
+        padding: 10px;    
     }
-  
+   li {
+        display: inline-block;
+        margin-right: 30px;
+    }
 
+nav  {
+    background-color:yellow;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: rgb(2, 138, 2);
+    color: black;
+    
+}
+header {
+    background-color:rgb(245, 245, 245);
+    padding: 10px;
+    text-align: center;
+
+}
