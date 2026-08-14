@@ -9,7 +9,27 @@ h1 {
 
 h2 {
     color: rgb(76, 76, 177);
+    text-align: center;
 }
+
+p {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+input, textarea {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
     button {
         background-color: rgb(230, 16, 9);
         color: white;
@@ -20,11 +40,8 @@ h2 {
     }
     main {
         background-color: rgb(165, 157, 157);
-        margin: 20px;
+        margin: 0px;
         padding: 20px;    
     }
-#Contact {
-    background-color: rgb(165, 157, 157);
-    margin: 20px;
-    padding: 20px;
-}
+  
+
