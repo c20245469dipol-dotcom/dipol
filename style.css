@@ -9,7 +9,7 @@ ul {
 nav {
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     margin-left: 50px;
     margin-right: 50px;
     
@@ -19,6 +19,8 @@ nav {
 nav ul {
     display: flex;
     gap: 20px;
+    padding: 0;
+    margin: 0;
   
 
 }
@@ -29,13 +31,15 @@ main {
     gap: 30px;
     padding: 50px;
     margin: 50px;
-    background-color: rgb(1, 97, 65);
+    max-width: 1200px;
+    background-color: aquamarine;
+    
     
 }
 
 main section {
     flex: 1;
-    min-width: 480px;
+    min-width: 290px;
     border: 2px solid black;
     padding: 20px;
     
@@ -45,10 +49,38 @@ form {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
+        
+    }
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+    nav ul {
+          flex-direction: column;
+        gap: 15px;
+    }
+    main {
+        flex-direction: column;
+        padding: 20px;
+        margin: 20px;
+    }
+    main section {
+        flex: 1 1 100%;
+        min-width: 0;
+        padding: 15px;
+    }
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 80px;
+            color: blueviolet;
+    }
 
-}
+        
+    
+} 
+    
 
-.services {
-    padding:   50px;
-   
-}
+
+
