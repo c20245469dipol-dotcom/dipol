@@ -1,71 +1,54 @@
 body {
-    background-color: rgb(10, 141, 10);
+    text-align: center;
+    
+}
+ul {
+    list-style-type: none;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+
 }
 
-h1 {
-    color: rgb(247, 40, 3);
-    text-align: center;
+nav ul {
+    display: flex;
+    gap: 20px;
+  
+
 }
 
-h2 {
-    color: rgb(76, 76, 177);
-    text-align: center;
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px;
+    margin: 50px;
+    background-color: rgb(1, 97, 65);
+    
 }
 
-p {
-    text-align: center;
+main section {
+    flex: 1;
+    min-width: 480px;
+    border: 2px solid black;
+    padding: 20px;
+    
 }
 
 form {
-    text-align: center;
-}
-
-label {
-    display: block;
-    margin: 10px 0 5px 0;
-}
-
-input, textarea {
-    display: block;
-    margin: 0 auto 10px auto;
-}
-
-    button {
-        background-color: rgb(230, 16, 9);
-        color: white;
-    }
-    header {
-        
-        color: rgb(172, 7, 7);
-    }
-    main {
-        background-color: rgb(165, 157, 157);
-        margin: 0px;
-        padding: 10px;    
-    }
-   li {
-        display: inline-block;
-        margin-right: 30px;
-    }
-
-nav  {
-    background-color:yellow;
-    padding: 10px;
-    text-align: center;
-    transition: background-color 0.3s;
-    text-decoration: none;
-}
-nav a:hover {
-    background-color: rgb(2, 138, 2);
-    color: black;
-    
-}
-header {
-    background-color:rgb(245, 245, 245);
-    padding: 10px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
 }
-.about {
-    color : rgb(14, 160, 58);
+
+.services {
+    padding:   50px 0 50px 0;
+   
 }
