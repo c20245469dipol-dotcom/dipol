@@ -22,7 +22,10 @@ function greet(greetings, names=[]){
 console.log(greet("Mayong aga", ["John Emmanuel" , "Bai", "Soy" , "Tol" , "Erp"]));
 
 const heading = document.querySelector("h1");
-heading.textContent = "Your Father's Name";
+heading.textContent = "Dennis Dipol";
+heading.style.fontSize = "100px";
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
 console.log(heading);
 
 const contactHeading = document.querySelector("#contact h2");
