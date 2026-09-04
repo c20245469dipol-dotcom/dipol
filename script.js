@@ -28,11 +28,33 @@ heading.style.color = "purple";
 heading.style.backgroundColor = "yellow";
 console.log(heading);
 
+heading.addEventListener("click", function(){
+    heading.style.color = "red";
+    console.log("heading was Clicked.");
+});
+
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
 
 const projectHeading = document.querySelector("#services h2");
 console.log(projectHeading);
+
+const toggleButton = document.querySelector("#switch");
+const body = document.querySelector("body");
+let isOff = false;
+
+toggleButton.addEventListener("click", function(){
+    if (isOff){
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
+        isOff = false;
+    } else {
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
+        isOff = true;   
+    }
+
+});
 
 
 
