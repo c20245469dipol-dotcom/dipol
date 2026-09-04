@@ -22,12 +22,14 @@ function greet(greetings, names=[]){
 console.log(greet("Mayong aga", ["John Emmanuel" , "Bai", "Soy" , "Tol" , "Erp"]));
 
 const heading = document.querySelector("h1");
+heading.textContent = "Your Father's Name";
 console.log(heading);
 
-const contactHeading = document.querySelector("#contact");
+const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
 
 const projectHeading = document.querySelector("#services h2");
 console.log(projectHeading);
+
 
 
